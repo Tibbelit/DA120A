@@ -39,7 +39,7 @@
 
 
 <h5>2.1.2. Absoluta sökvägar</h5>
-<p>Absoluta sökvägar innebär istället att man anger en <i>exakt</i> plats var bilden ligger, en helt webbadress. <b>Detta gör man när bilden man vill visa ligger utanför webbplatsen</b>, t.ex. om man vill visa bilder som man hittar genom en sökmotor.</p>
+<p>Absoluta sökvägar innebär istället att man anger en <i>exakt</i> plats var bilden ligger, en hel webbadress. <b>Detta gör man när bilden man vill visa ligger utanför webbplatsen</b>, t.ex. om man vill visa bilder som man hittar genom en sökmotor.</p>
 <p>Låt säga att jag vill visa en bild på Star Wars-logotypen och genom en sökmotor hittat en bild som ligger på adressen <code>https://c2.staticflickr.com/4/3801/13389420833_99e5b4bc70_b.jpg</code>. För att visa upp denna bild på min webbsida skulle jag då skriva:</p>
 
 <pre class="language-markup line-numbers codepen" data-type="html"><code class="language-markup line-numbers">

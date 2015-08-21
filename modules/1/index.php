@@ -38,8 +38,8 @@
             <li><a href="/lectures.php?type=Modul1&nr=Headings">HTML: Rubriker</a></li>
             <li><a href="/lectures.php?type=Modul1&nr=Paragraphs">HTML: Paragrafer</a></li>
             <li><a href="/lectures.php?type=Modul1&nr=Images">HTML: Bilder</a></li>
-            <li class="todo">Att göra: Länkar</li>
-            <li class="todo">Att göra: Listor</li>
+            <li><a href="/lectures.php?type=Modul1&nr=Links">HTML: Länkar</a></li>
+            <li><a href="/lectures.php?type=Modul1&nr=Lists">HTML: Listor</a></li>
             <li class="todo">Att göra: Kursiv/fetstilt</li>
         </ol>
     </div>
