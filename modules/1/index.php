@@ -37,7 +37,7 @@
             <li><a href="/lectures.php?type=Modul1&nr=Indentering">Indentering av kod</a></li>
             <li><a href="/lectures.php?type=Modul1&nr=Headings">HTML: Rubriker</a></li>
             <li><a href="/lectures.php?type=Modul1&nr=Paragraphs">HTML: Paragrafer</a></li>
-            <li class="todo">Att göra: Bilder</li>
+            <li><a href="/lectures.php?type=Modul1&nr=Images">HTML: Bilder</a></li>
             <li class="todo">Att göra: Länkar</li>
             <li class="todo">Att göra: Listor</li>
             <li class="todo">Att göra: Kursiv/fetstilt</li>
