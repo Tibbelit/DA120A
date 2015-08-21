@@ -36,11 +36,10 @@
         <ol>
             <li><a href="/lectures.php?type=Modul1&nr=Indentering">Indentering av kod</a></li>
             <li><a href="/lectures.php?type=Modul1&nr=Headings">HTML: Rubriker</a></li>
-            <li><a href="/lectures.php?type=Modul1&nr=Paragraphs">HTML: Paragrafer</a></li>
+            <li><a href="/lectures.php?type=Modul1&nr=Paragraphs">HTML: Paragrafer & text</a></li>
             <li><a href="/lectures.php?type=Modul1&nr=Images">HTML: Bilder</a></li>
             <li><a href="/lectures.php?type=Modul1&nr=Links">HTML: Länkar</a></li>
             <li><a href="/lectures.php?type=Modul1&nr=Lists">HTML: Listor</a></li>
-            <li class="todo">Att göra: Kursiv/fetstilt</li>
         </ol>
     </div>
     <div class="col-lg-4">
