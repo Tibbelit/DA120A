@@ -73,9 +73,9 @@
        <h4>3.5. Övningar</h4>
         <ol>
             <li><a href="/exercises.php?module=1&title=HTML">Ett första HTML-dokument</a></li>
-            <li><a href="#" class="todo">Text (paragrafer, rubriker, listor)</a></li>
-            <li><a href="#" class="todo">Bilder & länkar</a></li>
-            <li><a href="#" class="todo">Indentering</a></li>
+            <li><a href="/exercises.php?module=1&title=Text">Text (paragrafer, rubriker, listor)</a></li>
+            <li><a href="/exercises.php?module=1&title=ImagesLinks">Bilder & länkar</a></li>
+            <li><a href="/exercises.php?module=1&title=Indentering">Indentering</a></li>
             <li><a href="/exercises.php?module=1&title=validate" class="todo">Validera HTML (förbättra)</a></li>
         </ol>
    </div>
