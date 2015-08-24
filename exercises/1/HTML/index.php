@@ -1,10 +1,10 @@
 <h2>Övning - Ett första HTML-dokument</h2>
 <h3>1. Ett grundläggande HTML-dokument</h3>
 <p>Ett HTML-dokument kan inledningsvis delas in i två delar</p>
-<ul>
+<ol>
     <li>Huvud med information om dokumentet</li>
     <li>Kropp med information i själva dokumentet</li>
-</ul>
+</ol>
 <p>Skapa ett tomt HTML-dokument, du kan utgår från denna grundläggande struktur:</p>
 <pre class="language-markup line-numbers" data-type="html"><code class="language-markup line-numbers">
 &lt;html&gt;
