@@ -1,3 +1,8 @@
+<?php
+    if($_SERVER['SERVER_NAME'] != "localhost"){
+        exit("Denna sida är inte publicerad än...");
+    }
+?>
 <h2>Modul 6 - Responsiv design</h2>
 <h3>1. Kom igång med media queries</h3>
 <p>Vi ska nu fortsätta med mer layoutbyggande i HTML & CSS. Detta genom att strukturera upp vårt innehåll på webbsidan i olika rader/kolumner, men även lite mer specifik layout som t.ex. bilder bredvid varandra m.m.</p>

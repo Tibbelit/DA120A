@@ -22,11 +22,11 @@
                 <tr>
                 	<th>Modul</th>
                     <td colspan="3"><a href="modules.php?module=1">Modul 1</a></td>
-                    <td colspan="3"><a href="modules.php?module=2">Modul 2</a></td>
-                    <td colspan="3"><a href="modules.php?module=3">Modul 3</a></td>
-                    <td colspan="3"><a href="modules.php?module=4">Modul 4</a></td>
-                    <td colspan="3"><a href="modules.php?module=5">Modul 5</a></td>
-                    <td colspan="3"><a href="modules.php?module=6">Modul 6</a></td>
+                    <td colspan="3">Modul 2</td>
+                    <td colspan="3">Modul 3</td>
+                    <td colspan="3">Modul 4</td>
+                    <td colspan="3">Modul 5</td>
+                    <td colspan="3">Modul 6</td>
                     <td colspan="2">Kompletteringar</td>
                 </tr>
             </table>

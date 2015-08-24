@@ -1,3 +1,8 @@
+<?php
+    if($_SERVER['SERVER_NAME'] != "localhost"){
+        exit("Denna sida är inte publicerad än...");
+    }
+?>
 <h2>Modul 5 - Layout med CSS</h2>
 <h3>1. Kom igång med layoutbyggande</h3>
 <p>Vi har nu lärt oss grundläggande HTML för att strukturera upp vår information på de webbplatser vi hittills skapat, men också tittat på CSS för att formge denna information. Vi ska nu blicka framåt och fokusera mer på hur man kan skapa layouter på webbplatserna för bättre/tydligare/snyggare presentation av information. Här tänker vi mest på att våra sidor bör ha ett sidhuvud, en meny, en plats för sidans innehåll, sidfot, etc.</p>

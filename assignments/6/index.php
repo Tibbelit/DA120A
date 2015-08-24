@@ -1,3 +1,8 @@
+<?php
+    if($_SERVER['SERVER_NAME'] != "localhost"){
+        exit("Denna sida är inte publicerad än...");
+    }
+?>
 <div class="row">
 	<div class="col-lg-8">
 		<h2>Inlämningsuppgift 6</h2>

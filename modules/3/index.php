@@ -1,3 +1,8 @@
+<?php
+    if($_SERVER['SERVER_NAME'] != "localhost"){
+        exit("Denna sida är inte publicerad än...");
+    }
+?>
 <h2>Modul 3 - Formulär</h2>
 <h3>1. Kom igång med formulär</h3>
 <p>Nu är det dags att titta på hur man bygger formulär i HTML för sin webbplats. Formulär är en av grundstenarna när man bygger webbplatser/webbsystem och används ofta till att samla/hämta in data från webbsidans användare/besökare. Det kan vara allt från ett inloggningsformulär, till att skriva blogginlägg, till att ladda upp filer/bilder på en webbplats.</p>

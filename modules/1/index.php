@@ -76,7 +76,7 @@
             <li><a href="/exercises.php?module=1&title=Text">Text (paragrafer, rubriker, listor)</a></li>
             <li><a href="/exercises.php?module=1&title=ImagesLinks">Bilder & länkar</a></li>
             <li><a href="/exercises.php?module=1&title=Indentering">Indentering</a></li>
-            <li><a href="/exercises.php?module=1&title=validate" class="todo">Validera HTML (förbättra)</a></li>
+            <li><a href="/exercises.php?module=1&title=validate">Validera HTML</a></li>
         </ol>
    </div>
    <div class="col-lg-4">

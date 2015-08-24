@@ -1,3 +1,8 @@
+<?php
+    if($_SERVER['SERVER_NAME'] != "localhost"){
+        exit("Denna sida är inte publicerad än...");
+    }
+?>
 <h2>Modul 2 - Tabeller, bilder, länkar</h2>
 <h3>1. Kom igång med datapresentation</h3>
 <p>Nu när vi byggt vår första webbplats är det dags att titta vidare på hur man strukturerar upp data på webbplatser. När man vill presentera data är ett vanligt sätt att göra detta på genom tabeller, vi ska därför i denna modul huvudsakligen fokusera på att bygga just tabeller.</p>

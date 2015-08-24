@@ -1,3 +1,8 @@
+<?php
+    if($_SERVER['SERVER_NAME'] != "localhost"){
+        exit("Denna sida är inte publicerad än...");
+    }
+?>
 <h2>Modul 4 - CSS</h2>
 <p>Hittills i kursen har vi helt fokuserat på HTML, alltså hur vi strukurerar upp information på en webbsida. Vi har tittat på bl.a. grundläggande struktur av text, bilder, tabeller, formulär. I denna modul ska vi börja titta på hur vi kan formge innehållet på våra webbsidor. Detta genom språket <b>CSS</b> (Cascading Style Sheet).</p>
 

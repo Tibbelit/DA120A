@@ -26,13 +26,13 @@
             <p>Med andra ord är det <i><b>viktigt</b></i> att besöka båda kursplatserna kontinuerligt om man läser kursen på Malmö Högskola.</p>
 		</div>
 		<div class="col-lg-4">
-			<h3>Bra länkar</h3>
+			<h2>Bra länkar</h2>
 			<div class="list-group">
 				<a class="list-group-item" href="http://www.mah.se/">Malmö Högskola</a>
 				<a class="list-group-item" href="https://mah.itslearning.com/elogin/">It's Learning</a>
 				<a class="list-group-item" href="http://edu.mah.se/DA120A#Syllabus">Kursplan</a>
 			</div>
-			<h3>Senaste händelser</h3>
+			<h2>Senaste händelser</h2>
 		</div>
 	</div>
 
