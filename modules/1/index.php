@@ -72,7 +72,7 @@
     <div class="col-lg-4">
        <h4>3.5. Övningar</h4>
         <ol>
-            <li><a href="#" class="todo">Ett första HTML-dokument</a></li>
+            <li><a href="/exercises.php?module=1&title=HTML">Ett första HTML-dokument</a></li>
             <li><a href="#" class="todo">Text (paragrafer, rubriker, listor)</a></li>
             <li><a href="#" class="todo">Bilder & länkar</a></li>
             <li><a href="#" class="todo">Indentering</a></li>

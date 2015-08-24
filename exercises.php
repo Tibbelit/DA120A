@@ -4,8 +4,17 @@
 		$exercises = $_GET['title'];
 		
 		if(file_exists("exercises/".$_GET['module']."/$exercises/index.php")){
-			include "exercises/".$_GET['module']."/$exercises/index.php";
-            
+            ?>
+             <div class="row">
+                <div class="col-lg-8 create-submenu">
+                <?php
+                     include "exercises/".$_GET['module']."/$exercises/index.php";
+                ?>
+               </div>
+                <div class="col-lg-4 submenu-area"></div>
+        	</div>
+        <?php
+        }
         ?>
     <hr>
 
@@ -22,11 +31,7 @@
         })();
     </script>
     <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
-        <?php
-		}else{
-			echo "<h3>Här fanns tyvärr inget, dubbelkolla adressen</h3>";	
-		}
+    <?php
 	}else{
 		echo "<h3>Här fanns tyvärr inget, dubbelkolla adressen</h3>";	
 	}
