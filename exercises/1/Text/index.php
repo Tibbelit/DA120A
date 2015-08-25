@@ -29,15 +29,10 @@
 
 &lt;/body&gt;
 </code></pre>
-<p>Försök nu att placera in en passande rubrik mellan 'kropp'-taggarna samt en mindre rubrik nedanför den stora med en slogan. Storlek på rubriken bestäms från h1 (störst) till h6 (minst). Exempel: 
-    <h1>h1: Restaurang Vegano</h1>
-    <h2>h2: Vin & Vegetariskt</h2>
-    <h3>h3: Restaurang Vegano</h3>
-    <h4>h4: Vin & Vegetariskt</h4>
-    <h5>h5: Restaurang Vegano</h5>
-    <h6>h6: Vin & Vegetariskt</h6>
-</p>
+<p>Försök nu att placera in en passande rubrik mellan 'kropp'-taggarna samt en mindre rubrik nedanför den stora med en slogan. Storlek på rubriken bestäms från h1 (störst) till h6 (minst).
 
 
 <h3>3. Presentation och paragrafer</h3>
-<p>Paragrafryttaren har anlänt! Nu är det dags att skriva en presentation av restaurangen och placera den i rätt ordning. Restaurangen har önskat att följande presentation, men du får gärna strunta i vad de tycker och skriva en egen om du så önskar.</p>
+<p>Förhoppningsvis sitter rubriken på plats! Nu är det dags att skriva en presentation och placera den i rätt ordning. Restaurangen har önskat en egen presentation, men du får gärna strunta i vad de tycker och skriva en bättre om du önskar.</p>
+
+<p>"Vår restaurang erbjuder helekologiskt och vegetarisk lunchbuffé för endast 69 kronor. Vi är belägna på Måsvägen 15 i Helsingborg</p>
