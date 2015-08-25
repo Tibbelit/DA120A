@@ -34,6 +34,18 @@ $(document).ready(function(){
     */
     if($(window).width() > 1000){
         $(".sticky-areas").sticky({ topSpacing: 60 });
+        $( window ).scroll(function() {
+            var height = $('.sticky-areas').first().css("height");
+            var position = $('.sticky-areas').first().offset();
+            console.log("Sticky: " + (parseInt(position.top) + parseInt(height)));
+            console.log("Disqus: " + $("#disqus_thread").children().first().offset().top);
+            if((parseInt(position.top) + parseInt(height)) > $("#disqus_thread").children().first().offset().top){
+                $(".sticky-areas").unstick();
+            }else{
+                $(".sticky-areas").sticky({ topSpacing: 60 });
+                //$(".sticky-areas").css("top", $("#disqus_thread").children().first().offset().top);
+            }
+        });
     }
     /*
         Animates the "scroll to" on links
