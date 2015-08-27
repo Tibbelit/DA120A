@@ -45,7 +45,7 @@
 &lt;p&gt;&lt;/p&gt;
 </code></pre>
 <br>
-<p><i>"Vegano erbjuder helekologiskt och vegetarisk lunchbuffé för endast 69 kronor. Under kvällstid har du som gäst möjlighet att boka ett Vin & Vego-bord med säsongsbetonad meny med passande viner till. Vi är belägna på Vildmåsvägen 111 i Lund, välkomna! Vår lunchmeny finner ni nedan."</i></p>
+<p><i>"Vegano erbjuder helekologisk och vegetarisk lunchbuffé för endast 69 kronor. Under kvällstid har du som gäst möjlighet att boka ett Vin & Vego-bord med säsongsbetonad meny med passande viner till. Vi är belägna på Vildmåsvägen 111 i Lund, välkomna! Vår lunchmeny finner ni nedan."</i></p>
 
 <h3>4. Menylista </h3>
 <p>Slutligen vill restaurangen att en del av deras lunchmeny ska finnas tillgänglig. Uppdelningen bör vara i rubriker med kalla och varma rätter med varsin punktad lista.</p>
@@ -59,4 +59,6 @@
 &lt;/ul&gt;
 </code></pre>
 
-<p>Har du klarat detta är du på god väg att ha skapat din första hemsida! Resultatet än så länge bör se ut ungefär såhär</p><!--Vill gärna ha in facit html men vet ej hur--!>
+<p>Har du klarat detta är du på god väg att ha skapat din första hemsida à 1998 style! Oroa dig inte, det kommer bli bättre med tiden. Resultatet än så länge bör se ut ungefär såhär: 
+    <br>
+    <a href="/exercises/1/Text/ex1.png" data-lightbox="Webbsida" data-title="Exempellösning"><img src="/exercises/1/text/ex1.png" style="width:250px; box-shadow:0 0 5px #000; display:block; margin:auto;">.</p><!--Vill gärna ha in facit html men vet ej hur--!>
