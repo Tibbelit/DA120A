@@ -13,22 +13,28 @@
 <h3>2. Titel i webbläsarfliken</h2>
 <p>För att komma igång behöver vi sätta upp en grundläggande struktur i dokumentet. Minns du vilka delar ett HTML-dokument brukar delas in i? Vi ska börja med det första, nämligen <i>huvudet</i> (eng. head) och detta bör alltså ligga längst upp i dokumentet, precis som ett huvud oftast gör. Logiskt, eller hur? Eftersom huvudet innehåller information om dokumentet (även kallat <i>metadata</i>) så är det även här vi sätter in titeln som webbläsaren ska läsa av.</p>
 <pre class="language-markup line-numbers" data-type="html"><code class="language-markup line-numbers">
-&lt;head&gt;
-    &lt;meta charset="UTF-8"&gt;
-    &lt;title&gt;&lt;/title&gt;
-&lt;/head&gt;
+&lt;!doctype html&gt;
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;meta charset="UTF-8"&gt;
+        &lt;title&gt;&lt;/title&gt;
+    &lt;/head&gt;
+    ...
 </code></pre> <!--Kan man gömma detta och låta studenten trycka på en knapp för att se lösningen?-->
 <p>Med ovanstående struktur ska du nu kunna skriva in titeln på dokumentet. Vad sägs om, vem vet, "Restaurang Vegano" eller "Godast mat i södern"? Ordet är fritt. Om du skrivit rätt kommer titeln att dyka upp på webbläsarfliken.</p>
 
 <h3>3. Rubriker</h3>
 <p>Nu när vi fått ordning på informationen om dokumentet ifråga ska vi börja med det inledande innehållet. Vi går nedåt ett snäpp från huvudet och ner på resten av <i>kroppen</i> (eng. body). Därför behöver vi definiera var detta innehåll ska vara.</p>
 <pre class="language-markup line-numbers" data-type="html"><code class="language-markup line-numbers">
-&lt;head&gt;
-    &lt;title&gt;&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
+&lt;!doctype html&gt;
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt;&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
 
-&lt;/body&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
 </code></pre>
 <p>Försök nu att placera in en passande rubrik mellan 'kropp'-taggarna samt en mindre rubrik nedanför den stora med en slogan. Storlek på rubriken bestäms från h1 (störst) till h6 (minst).
 <pre class="language-markup line-numbers" data-type="html"><code class="language-markup line-numbers">
@@ -59,6 +65,6 @@
 &lt;/ul&gt;
 </code></pre>
 
-<p>Har du klarat detta är du på god väg att ha skapat din första hemsida à 1998 style! Oroa dig inte, det kommer bli bättre med tiden. Resultatet än så länge bör se ut ungefär såhär: 
-    <br>
-    <a href="/exercises/1/Text/ex1.png" data-lightbox="Webbsida" data-title="Exempellösning"><img src="/exercises/1/text/ex1.png" style="width:250px; box-shadow:0 0 5px #000; display:block; margin:auto;">.</p>
+<p>Har du klarat detta är du på god väg att ha skapat din första hemsida à 1998 style! Oroa dig inte, det kommer bli bättre med tiden. Resultatet än så länge bör se ut ungefär såhär:</p>
+<p><a href="/exercises/1/Text/ex1.png" data-lightbox="Webbsida" data-title="Exempellösning"><img src="/exercises/1/text/ex1.png" style="width:250px; box-shadow:0 0 5px #000; display:block; margin:auto;"></a>.</p>
+<p><a href="/exercises/1/Text/ex1.html">Koden för exempellösningen ovan hittar ni här</a> (högerklicka och välj "visa källa" för att se källkoden).</p>
