@@ -3,20 +3,23 @@
         <p>Vegano har övervägt och man önskar ha smakfull bild på restaurangen samt ett par länkar till de vanligaste sociala medierna som man använder:                facebook, twitter och instagram.</p>
 
         <p>Vi ska i denna övning utgå från föregående kod som vi har lyckats få ihop hittills. Resultatet efter våra tillägg bör rimligen se ut på detta                vis:</p>
-            <a href="/exercises/1/ImagesLinks/ex2.png" data-lightbox="Webbsida" data-title="Exempellösning"><img src="/exercises/1/ImagesLinks/ex2.png"                    style="width:250px; box-shadow:0 0 5px #000; display:block; margin:auto;">.</a></p>
+            <p><a href="/exercises/1/ImagesLinks/ex2.png" data-lightbox="Webbsida" data-title="Exempellösning"><img src="/exercises/1/ImagesLinks/ex2.png"                    style="width:250px; box-shadow:0 0 5px #000; display:block; margin:auto;">.</a></p>
     <h3>2. Bild</h2>
         <p>Det första vi kan börja med är att leta upp en trevlig bild på en restaurang. Har du ingen inspiration kan du ta denna 
             <a href="http://www.svenskamassan.se/Global/svenskamassan/bilder/restaurang.jpg">bild</a>. Du kan antingenanvända länken direkt till bildtaggen             eller ladda ner den och länka till bilden i din mapp. Vegano önskar ha bilden precis under sina huvudrubriker, ungefär såhär.</p>
-                <pre class="language-markup line-numbers" data-type="html"><code class="language-markup line-numbers">
-                &lt;head&gt;
-                    &lt;meta charset="UTF-8"&gt;
-                    &lt;title&gt;&lt;/title&gt;
-                &lt;/head&gt;
-                &lt;body&gt;
-                    &lt;h1&gt;&lt;/h1&gt;
-                    &lt;img src="-lägg in länken till bilden här-"&gt;
-                &lt;/body&gt;
-                </code></pre> <!--Kan man gömma detta och låta studenten trycka på en knapp för att se lösningen?-->
+<pre class="language-markup line-numbers" data-type="html"><code class="language-markup line-numbers">
+&lt;!doctype html&gt;
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;meta charset="UTF-8"&gt;
+        &lt;title&gt;&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;h1&gt;&lt;/h1&gt;
+        &lt;img src="-lägg in länken till bilden här-"&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+</code></pre> <!--Kan man gömma detta och låta studenten trycka på en knapp för att se lösningen?-->
 
 <h3>3. Rubriker</h3>
 <p>Nu när vi fått ordning på informationen om dokumentet ifråga ska vi börja med det inledande innehållet. Vi går nedåt ett snäpp från huvudet och ner på resten av <i>kroppen</i> (eng. body). Därför behöver vi definiera var detta innehåll ska vara.</p>
@@ -59,4 +62,4 @@
 
 <p>Har du klarat detta är du på god väg att ha skapat din första hemsida à 1998 style! Oroa dig inte, det kommer bli bättre med tiden. Resultatet än så länge bör se ut ungefär såhär: 
     <br>
-    <a href="/exercises/1/Text/ex1.png" data-lightbox="Webbsida" data-title="Exempellösning"><img src="/exercises/1/text/ex1.png" style="width:250px; box-shadow:0 0 5px #000; display:block; margin:auto;">.</p><!--Vill gärna ha in facit html men vet ej hur--!>
+    <a href="/exercises/1/Text/ex1.png" data-lightbox="Webbsida" data-title="Exempellösning"><img src="/exercises/1/text/ex1.png" style="width:250px; box-shadow:0 0 5px #000; display:block; margin:auto;"></a>.</p><!--Vill gärna ha in facit html men vet ej hur--!>
