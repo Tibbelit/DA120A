@@ -49,3 +49,5 @@
 </code></pre>
 
 <p>Klarat det? Bra jobbat! Nu har vi lagt till lite trevligare estetik på sidan, mera interaktion och kommit ett steg närmare rätt århundrade. </p>
+
+<p>Exempel på bilder hittar du <a href="/exercises/1/ImagesLinks/images.zip">här (ZIP-fil)</a>.</p>
