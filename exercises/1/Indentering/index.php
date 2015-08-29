@@ -1,49 +1,22 @@
 <h2>Övning 4 - Indentering</h2>
-    <h3>1. Ett hemsnickeri</h3>
-        <p>En släkting till en av restaurangens ägare har varit snäll nog att bidra med en beskrivning av lokalerna i restaurangen och hur man gör bokningar. Tyvärr är koden rätt svår att läsa på grund av dålig <a href="lectures.php?type=Modul1&nr=Indentering"><i>indentering</i></a>, så vårt mål är att försöka göra det mer läsbart för vår egen skull och andra.</p>
+    <h3>1. Andras kod</h3>
+        <p>En släkting till en av restaurangens ägare har varit snäll nog att bidra med en beskrivning av lokalerna i restaurangen och hur man gör bokningar. Tyvärr är koden rätt svår att läsa på grund av dålig <a href="lectures.php?type=Modul1&nr=Indentering"><i>indentering</i></a>, så vårt mål är att försöka göra det mer läsbart för vår egen skull och andra. Titta på skärmdumpen nedan för att få en uppfattning om hur sidan bör se ut.</p>
+<a href="/exercises/1/Indentering/ex3.png" data-lightbox="Webbsida" data-title="Exempellösning"><img src="/exercises/1/Indentering/ex3.png"                    style="width:250px; box-shadow:0 0 5px #000; display:block; margin:auto;">.</a>
 
-    <h3>2. Huvudbild - absolut sökväg</h2>
-        <p>Det första vi kan börja med är att leta upp en trevlig bild på en restaurang. Har du ingen inspiration kan du ta denna 
-            <a href="http://www.svenskamassan.se/Global/svenskamassan/bilder/restaurang.jpg">bild</a>. Använd hela länkens adress och stoppa i den i din tagg som en <i><a href="http://localhost:1234/lectures.php?type=Modul1&nr=Images#212-Absoluta-sokvagar">absolut sökväg</a></i>. Vegano önskar ha bilden precis under sina huvudrubriker, ungefär såhär.</p>
+    <h3>2. Indentera om - indentera rätt</h2>
+        <p>Det var värre än vi trodde, men det är bara att sätta igång och gråta sen! Ta ut koden nedan och indentera den så att den blir läsbar!</p>
 <pre class="language-markup line-numbers" data-type="html"><code class="language-markup line-numbers">
-&lt;!doctype html&gt;
-&lt;html&gt;
-    &lt;head&gt;
-        &lt;meta charset="UTF-8"&gt;
-        &lt;title&gt;&lt;/title&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;h1&gt;&lt;/h1&gt;
-        &lt;img src="-lägg in länken till bilden här-"&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-</code></pre> <!--Kan man gömma detta och låta studenten trycka på en knapp för att se lösningen?-->
 
-<h3>3. Ikoner - relativ sökväg</h3>
-<p>En bild säger mer än tusen rader kod brukar det sägas, vilket lyft! Nästa utmaning vi ska ta oss an är att lägga upp ikonerna för facebook, twitter och instagram på slutet av sidan och sedan gör dem klickbara. Vi börjar med ikonerna. Till skillnad från föregående bild ska vi nu försöka länka dem direkt från en mapp på datorn, det vill säga som en <i><a href="http://localhost:1234/lectures.php?type=Modul1&nr=Images#211-Relativa-sokvagar">relativ sökväg</a></i>. Varje ikon kommer behöva en egen <code>&lt;img&gt;</code> tagg! Ladda ner följande <a href="/DA120A/excercises/1/ImagesLinks/images.zip">zipfil</a> och extrahera den i samma mapp som ditt HTML-dokument. Sökvägen bör se ut ungefär såhär:</p>
-<pre class="language-markup line-numbers" data-type="html"><code class="language-markup line-numbers">
-&lt;img src="images/namnet-på-din-bild"&gt;
-</code></pre>
-<p>Placera nu in ikonerna på rätt plats i dokumentet!
-    
-<!-- Sätt in exempel -->
-
-
-<h3>3. Klickbara ikoner</h3>
-<p>I <a href="http://localhost:1234/lectures.php?type=Modul1&nr=Links">länkföreläsningen</a> bekantade vi oss med <code>&lt;a&gt;</code> (står för eng. <i>anchor</i>) där vi kan ange relativa eller absoluta sökvägar till en annan plats. Det roliga är att bilder/ikoner också kan vara länkar! För att göra en klickbara ikoner behöver vi definiera dels vad det är som klickas på samt var vi hamnar när vi klickar på det. Du behöver därför "nästla" (eng. <i>nesting</i>) ikonerna innanför din <code>&lt;a&gt;</code> tagg: </p>
-<pre class="language-markup line-numbers" data-type="html"><code class="language-markup line-numbers">
-&lt;a href="länk-till-annan-sida"&gt;&lt;img src="images/namnet-på-din-bild"&gt;&lt;/a&gt;
-</code></pre>
-<p>Använd gärna adresserna till rätt hemsida till varje ikon. Pröva sedan att byta ut adresserna och se vad som händer!</p>
-
-<h3>4. Öppettider </h3>
-<p>Eftersom du redan vid det här laget lyckats få klickbara ikoner så kommer denna delövning vara som en dagisövning. Det första vi behöver göra är att skapa ett nytt HTML-dokument i samma mapp som ditt nuvarande dokument. Du kan döpa den till <code>oppettider.html</code> exempelvis. Det viktiga är att du använder rätt namn senare till din relativa sökväg. Skapa sedan en enkel rubrik med "Våra öppettider" och denna gång får du välja själv när Vegano ska ha öppet.</p>
-
-<p>I ditt huvuddokument ska du nu lägga till en liknande rubrik med "Våra öppettider" precis under huvudbilden. Den ska agera ankare till vårt nyskapade dokument! Nästla nu en <code>&lt;a&gt;</code> tagg runt din rubrik.</p>
-<pre class="language-markup line-numbers" data-type="html"><code class="language-markup line-numbers">
-&lt;a href="ditt-nya-html-dokument.html"&gt;
-   &lt;h2&gt;Namnet-på-din-länk&lt;/h2&gt;
-&lt;/a&gt;
+&lt;!doctype&gt;&lt;html&gt;
+&lt;head&gt;&lt;meta charset="UTF-8"&gt;
+&lt;title&gt;&lt;Restaurang Vegano&gt;&lt;/title&gt;&lt;head&gt;&lt;body&gt;&lt;h1&gt;Lokaler & Bokning;&gt;&lt;/h1&gt;&lt;&lt;h2&gt;Vegetariskt vallfärdande sedan 1800-talet&lt;/h2&gt;
+&lt;p&gt;Byggnaden som Vegano står i har tidigare inhyst grevar och hertiginnor som sökt efter en avspisning utöver den vanliga dieten av stekt sill och strömming och den industriella stämningen som omgärdar 1800-talet. Dekoren är därför klassisk brun kaskelotnyans och inredning kan närmast beskrivas som viktoriansk. Vi hoppas att du kommer trivas av stämningen och förhoppningsvis inte skrämmas av den greve som sägs hemsöka gillestugan.&gt;&lt;h2&gt;En plats för alla&lt;/h2&gt;&lt;p&gt;I våra lokaler rymmer nittio gäster och det finns plats för både mindre och större sällskap. Vi erbjuder självklart drop-in men under helger och kvällar kan det vara fullt så vi rekommenderar att man bokar i förväg.&lt;/p&gt;&lt;br&gt;
+&lt;img src="http://www.djuronaset.com/wp-content/uploads/2011/06/restaurang_djuronaset2.jpg" alt="Dukade bord"&gt;
+&lt;p&gt;Bokning kan ske på följande vis:&lt;/p&gt;       
+&lt;h2&gt;Via telefon&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;046-674 43 32&lt;/li&gt;&lt;/ul&gt;
+&lt;h3&gt;Via epost&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;bokning@vegano.se&lt;/li&gt;&lt;/ul&gt;
+&lt;h3&gt;Specialbokningar som vi erbjuder&lt;/h3&gt;&lt;ul&gt;
+&lt;li>Svensexor & möhippor (Ansvarig: Anton)&lt;/li&gt;&lt;li>Barnkalas &lt;/li&gt;
+&lt;li>Födelsedagsfester & dylikt&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
 </code></pre>
 
-<p>Klarat det? Bra jobbat! Nu har vi lagt till lite trevligare estetik på sidan, mera interaktion och kommit ett steg närmare rätt århundrade. </p>
