@@ -34,7 +34,9 @@
 <h3>3. Klickbara ikoner</h3>
 <p>I <a href="/lectures.php?type=Modul1&nr=Links">länkföreläsningen</a> bekantade vi oss med <code>&lt;a&gt;</code> (står för eng. <i>anchor</i>) där vi kan ange relativa eller absoluta sökvägar till en annan plats. Det roliga är att bilder/ikoner också kan vara länkar! För att göra en klickbara ikoner behöver vi definiera dels vad det är som klickas på samt var vi hamnar när vi klickar på det. Du behöver därför "nästla" (eng. <i>nesting</i>) ikonerna innanför din <code>&lt;a&gt;</code> tagg: </p>
 <pre class="language-markup line-numbers" data-type="html"><code class="language-markup line-numbers">
-&lt;a href="länk-till-annan-sida"&gt;&lt;img src="images/namnet-på-din-bild"&gt;&lt;/a&gt;
+&lt;a href="länk-till-annan-sida"&gt;
+	&lt;img src="images/namnet-på-din-bild"&gt;
+&lt;/a&gt;
 </code></pre>
 <p>Använd gärna adresserna till rätt hemsida till varje ikon. Pröva sedan att byta ut adresserna och se vad som händer!</p>
 
