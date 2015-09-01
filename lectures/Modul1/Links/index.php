@@ -19,7 +19,7 @@
 
 <h4>2.1. Sökvägar</h4>
 <h5>2.1.1. Relativa sökvägar</h5>
-<p>En reltiv sökväg innebär att man utgår från den plats som HTML-filen som man länkar <b>från</b> finns. Detta innebär att man inte behöver oroa sig över vilken URL (webbadress) som HTML-filen man <b>länkar till</b> har - bara man vet var den ligger i förhållandet till HTML-filen som man <b>länkar från</b>. <b>Relativa sökvägar används när bilden man vill visa ligger inom webbplatsen</b>.</p>
+<p>En reltiv sökväg innebär att man utgår från den plats som HTML-filen som man länkar <b>från</b> finns. Detta innebär att man inte behöver oroa sig över vilken URL (webbadress) som HTML-filen man <b>länkar till</b> har - bara man vet var den ligger i förhållandet till HTML-filen som man <b>länkar från</b>. <b>Relativa sökvägar används när länken man vill visa ligger inom webbplatsen</b>.</p>
 <p>Ett exempel. Vi har en filstuktur som ser ut såhär:</p>
 <pre>| Webbplats
 | -- index.html

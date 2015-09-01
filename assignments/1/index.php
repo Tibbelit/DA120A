@@ -12,7 +12,7 @@
 		<h3>3. Uppgiften</h3>
         <h4>3.1. Del 1: Den egna webbsidan</h4>
 		<p>Uppgiften är alltså att skapa en webbsida som persenterar er själva. Webbsidan ska innehålla en kort bakgrund om vem ni är, minst en bild på er samt några underrubriker, länkar, listor enligt eget val. De element som ni måste ha med på sidan <i>minst en gång</i> är:</p>
-        <pre>&lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt;, &lt;p&gt;, &lt;img&gt;, &lt;ul&gt;,  &lt;ol&gt;, &lt;li&gt;, &lt;a&gt;, &lt;i&gt;, &lt;b&gt;</pre>
+        <pre>&lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt;, &lt;p&gt;, &lt;img&gt;, &lt;ul&gt;,  &lt;ol&gt;, &lt;li&gt;, &lt;a&gt;, &lt;em&gt;, &lt;strong&gt;</pre>
         <p style="margin-top:-10px; text-align:center;"><i>Figur. 1</i></p>
         <p>Sidan ska sedan valideras, genom denna sida: <a href="http://validator.w3.org/">http://validator.w3.org/</a>. Inga fel ska då visas (varningar är OK). Er kod ska vara bra <a href="http://sv.wikipedia.org/wiki/Indentering">indenterad</a>, tips för att lyckas med detta är <a href="http://www.dirtymarkup.com/">denna webbplats</a>.</p>
         <p>Exempel på hur sidan skulle kunna se ut när den är klar:</p>

@@ -3,7 +3,7 @@
 <p>Att lista upp saker är ibland ett smidigt sätt att presentera information på. Ibland vill man lista upp saker utan inbördes ordning (oordnade listor) och ibland numrerade listor (ordnade listor). Vi ska här titta på hur man gör detta genom HTML.</p>
 
 <h3>2. En listas uppbyggnad</h3>
-<p>En lista i HTML innebär alltid minst två element. Det första är antingen <code>&lt;ul&gt;</code> (för en oordnad lista) eller <code>&lt;ul&gt;</code> (för en ordnad lista). Dessa element definierar en lista (utan några punkter i den). För att sedan lägga till punkter i listan användaren man elementet <code>&lt;li&gt;</code> (som står för "list item", alltså en sak i listan). Har man gjort en oordnad lista (<code>&lt;ul&gt;</code>) så visas varje sak i listan med en punkt framför sig, har man istället gjort en ordnad lista <code>&lt;ol&gt;</code> så visas en siffra framför varje sak i listan.</p>
+<p>En lista i HTML innebär alltid minst två element. Det första är antingen <code>&lt;ul&gt;</code> (för en oordnad lista) eller <code>&lt;ol&gt;</code> (för en ordnad lista). Dessa element definierar en lista (utan några punkter i den). För att sedan lägga till punkter i listan användaren man elementet <code>&lt;li&gt;</code> (som står för "list item", alltså en sak i listan). Har man gjort en oordnad lista (<code>&lt;ul&gt;</code>) så visas varje sak i listan med en punkt framför sig, har man istället gjort en ordnad lista <code>&lt;ol&gt;</code> så visas en siffra framför varje sak i listan.</p>
 <p>En oordnad lista skulle alltså kunna se ut såhär:</p>
 
 <pre class="language-markup line-numbers codepen" data-type="html"><code class="language-markup line-numbers">
