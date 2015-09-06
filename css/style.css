@@ -30,6 +30,9 @@ a.list-group-item.active{
 	.navbar-brand{
 		max-width:inherit;
 	}
+    .row{
+        margin:0px;
+    }
 }
 
 
