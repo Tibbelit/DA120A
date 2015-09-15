@@ -29,7 +29,7 @@
             <li>Förklara vad HTTP är för något och förklara vad ett <i>kommunikationsprotokoll</i> är.</li>
             <li>Vilka är <i>W3C</i>, och vilken är deras huvudsakliga uppgift?</li>
             <li>Vad betyder <i>WWW</i> och vad är det för något?</li>
-            <li>I bilden nedan visas en typisk internetadress:<br><img src="/assignments/1/url.png" alt="Bild på webbadress"><br>4.1. Vad kallas denna internetadress på fackspråk (en förkortning).<br>4.2. Vad betyder denna förkortning?<br>4.3. Vad kallas <i>a</i>, <i>b</i> och <i>c?</i></li>
+            <li>I bilden nedan visas en typisk internetadress:<br><img src="/assignments/1/url.png" alt="Bild på webbadress"><br>5.1. Vad kallas denna internetadress på fackspråk (en förkortning).<br>5.2. Vad betyder denna förkortning?<br>5.3. Vad kallas <i>a</i>, <i>b</i> och <i>c?</i></li>
             <li>Vad använder man kommunikationsprotokollet <i>FTP</i> till?</li>
             <li>Vilken modell bygger <i>HTTP</i> på? Modellen beskriver förhållandet mellan en dator som svarar och en dator som ställer förfrågan om att få se webbsidorna?</li>
             <li>Vad betyder <i>HTML</i> och vad är det ett exempel på för datorspråk?</li>
