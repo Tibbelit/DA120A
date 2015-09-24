@@ -3,9 +3,16 @@
 	if(isset($_GET['nr'])){
 		$assignment = $_GET['nr'];
 		if(file_exists("assignments/$assignment/index.php")){
-			include "assignments/$assignment/index.php";
-        ?>
-  <hr>
+            ?>
+            <div class="row">
+	            <div class="col-lg-8 create-submenu">
+                    <?php
+                    include "assignments/$assignment/index.php";
+                    ?>
+                </div>
+                <div class="col-lg-4 submenu-area"></div>
+            </div>
+      <hr>
 
     <div id="disqus_thread"></div>
     <script type="text/javascript">
@@ -32,8 +39,8 @@
 			<p>Här finns kursens inlämningsuppgifter samlade.</p>
 			<div class="list-group">
 				<div class="list-group-item"><a href="assignments.php?nr=1">Inlämningsuppgift 1</a></div>
-                <!--
 				<div class="list-group-item"><a href="assignments.php?nr=2">Inlämningsuppgift 2</a></div>
+                <!--
                 <div class="list-group-item"><a href="assignments.php?nr=3">Inlämningsuppgift 3</a></div>
 				<div class="list-group-item"><a href="assignments.php?nr=4">Inlämningsuppgift 4</a></div>
                 <div class="list-group-item"><a href="assignments.php?nr=5">Inlämningsuppgift 5</a></div>
