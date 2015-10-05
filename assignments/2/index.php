@@ -44,7 +44,7 @@
 </p>
 <p style="margin-top:-10px; text-align:center;"><i>Bild. 1</i>
 </p>
-<p>Även denna sida ska sedan valideras, genom denna sida: <a href="http://validator.w3.org/">http://validator.w3.org/</a>. Inga fel ska då visas (varningar är OK). Er kod ska vara bra <a href="http://sv.wikipedia.org/wiki/Indentering">indenterad</a>.</p>
+<p>Denna sida ska sedan valideras, genom denna sida: <a href="http://validator.w3.org/">http://validator.w3.org/</a>. Inga fel ska då visas (varningar är OK). Er kod ska vara bra <a href="http://sv.wikipedia.org/wiki/Indentering">indenterad</a>.</p>
 
 <h3><span class="a" id="m4"></span>4. Krav</h3>
 <h4>4.1. Generella krav</h4>
