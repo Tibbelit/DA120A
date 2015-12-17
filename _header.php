@@ -67,13 +67,11 @@
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="menuModules">Moduler <span class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
                     <li><a href="modules.php?module=1">1. Introduktion & en första webbsida</a></li>
-					<li><a href="modules.php?module=2">2. Tabeller, bilder, m.m.</a></li>
-					<!--
-					<li><a href="modules.php?module=3">3. Formulär</a></li>
-					<li><a href="modules.php?module=4">4. Introduktion till CSS</a></li>
-					<li><a href="modules.php?module=5">5. Layout med CSS</a></li>
-					<li><a href="modules.php?module=6">6. Responsiv design</a></li>
-                    -->
+          					<li><a href="modules.php?module=2">2. Tabeller, bilder, m.m.</a></li>
+          					<li><a href="modules.php?module=3">3. Formulär</a></li>
+          					<li><a href="modules.php?module=4">4. Introduktion till CSS</a></li>
+          					<li><a href="modules.php?module=5">5. Layout med CSS</a></li>
+          					<li><a href="modules.php?module=6">6. Responsiv design</a></li>
                 </ul>
             </li>
 			<li><a href="lectures.php">Föreläsningar</a></li>

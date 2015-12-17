@@ -1,8 +1,3 @@
-<?php
-    if($_SERVER['SERVER_NAME'] != "localhost"){
-        exit("Denna sida är inte publicerad än...");
-    }
-?>
 <h2>Modul 6 - Responsiv design</h2>
 <h3>1. Kom igång med media queries</h3>
 <p>Vi ska nu fortsätta med mer layoutbyggande i HTML & CSS. Detta genom att strukturera upp vårt innehåll på webbsidan i olika rader/kolumner, men även lite mer specifik layout som t.ex. bilder bredvid varandra m.m.</p>
@@ -43,13 +38,13 @@
     <div class="col-lg-4">
         <h4>2.4. Extra läsning</h4>
         <ul>
-            <li class="todo">Bra länkar</li>
+            <li><a href="http://www.w3.org/TR/css3-mediaqueries/">Media Queries - Specifikation</a></li>
         </ul>
     </div>
     <div class="col-lg-4">
         <h4>2.5. Övningar</h4>
         <ul>
-            <li class="todo">Övningar</li>
+            <li><a href="/exercises.php?module=6&title=MediaQueries">Mobilanpassa klar webbsida</a></li>
         </ul>
     </div>
     <div class="col-lg-4">

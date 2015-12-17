@@ -47,7 +47,7 @@
                 <a href="lectures.php?type=Intro&nr=intro" class="list-group-item">Introduktion till kursen<span class="desc">Bra att veta</span></a>
             	<a href="lectures.php?type=Intro&nr=dvwebb" class="list-group-item">Introduktion till dvwebb<span class="desc">MAHs webbpubliceringssystem</span></a>
 			</div>
-			
+
 			<h3>2. HTML</h3>
 			<h4>2.1. Videoföreläsningar</h4>
 			<div class="list-group">
@@ -62,16 +62,18 @@
               <a href="/lectures.php?type=Modul1&nr=Images" class="list-group-item">HTML: Bilder<span class="desc">Elementet <code>&lt;img&gt;</code></span></a></li>
               <a href="/lectures.php?type=Modul1&nr=Links" class="list-group-item">HTML: Länkar<span class="desc">Elementet <code>&lt;a&gt;</code></span></a></li>
               <a href="/lectures.php?type=Modul1&nr=Lists" class="list-group-item">HTML: Listor<span class="desc">Elementen <code>&lt;ul&gt;</code>, <code>&lt;ol&gt;</code>,<code>&lt;li&gt;</code></span></a></li>
+              <a href="/lectures.php?type=Modul3&nr=Forms" class="list-group-item">HTML: Formulär<span class="desc">Grunderna för ett HTML-formulär</span></a></li>
 			</div>
-			
-			<!--
+
 			<h3>CSS</h3>
 			<h4>Videoföreläsningar</h4>
 			<div class="list-group">
+				<a href="lectures.php?type=Modul4&nr=Inline-CSS" class="list-group-item">Intro till CSS och inline-style</a>
+				<a href="lectures.php?type=Modul5&nr=CSS-powerpoint" class="list-group-item">CSS i externt dokument (föreläsning)</a>
+				<a href="lectures.php?type=Modul5&nr=CSS-exempel" class="list-group-item">CSS i externt dokument (exempel)</a>
 				<a href="lectures.php?type=Modul6&nr=MediaQueriesIntro" class="list-group-item">Introduktion till media queries</a>
 				<a href="lectures.php?type=Modul6&nr=MediaQueriesCase" class="list-group-item">Ett exempelcase för media queries</a>
 			</div>
-			-->
 		</div>
 		<div class="col-lg-4 submenu-area">
 		</div>

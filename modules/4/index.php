@@ -1,8 +1,3 @@
-<?php
-    if($_SERVER['SERVER_NAME'] != "localhost"){
-        exit("Denna sida är inte publicerad än...");
-    }
-?>
 <h2>Modul 4 - CSS</h2>
 <p>Hittills i kursen har vi helt fokuserat på HTML, alltså hur vi strukurerar upp information på en webbsida. Vi har tittat på bl.a. grundläggande struktur av text, bilder, tabeller, formulär. I denna modul ska vi börja titta på hur vi kan formge innehållet på våra webbsidor. Detta genom språket <b>CSS</b> (Cascading Style Sheet).</p>
 
@@ -21,8 +16,7 @@
     <div class="col-lg-4">
         <h4>2.1. Föreläsningar</h4>
         <ol>
-            <li class="todo">Hur fungerar inline styling?</li>
-            <li class="todo">Hur vet jag vilka alternativ som finns?</li>
+            <li><a href="lectures.php?type=Modul4&nr=Inline-CSS">Intro till CSS och inline-style</a></li>
         </ol>
     </div>
     <div class="col-lg-4">
@@ -37,6 +31,7 @@
         <ul>
             <li><a href="http://www.w3schools.com/css/">Om CSS i w3school</a></li>
             <li><a href="http://www.w3schools.com/cssref/default.asp">Index över CSS-egenskaper som ni kan använda (w3school)</a></li>
+            <li><a href="https://www.codecademy.com/courses/css-coding-with-style/0/1">Interaktiv guide för CSS (codeacademy)</a></li>
         </ul>
     </div>
 </div>
@@ -44,14 +39,13 @@
     <div class="col-lg-4">
         <h4>2.4. Extra läsning</h4>
         <ul>
-            <li class="todo">Bra länkar (referenser)</li>
+            <li><a href="http://www.w3.org/standards/techs/css#w3c_all">w3c - CSS-standarden</a></li>
         </ul>
     </div>
     <div class="col-lg-4">
         <h4>2.5. Övningar</h4>
         <ul>
-            <li class="todo">Styling 1</li>
-            <li class="todo">Styling 2</li>
+            <li><a href="https://www.codecademy.com/courses/css-coding-with-style/0/1">Interaktiv guide för CSS (codeacademy)</a></li>
         </ul>
     </div>
     <div class="col-lg-4">

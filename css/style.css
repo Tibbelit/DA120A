@@ -164,3 +164,17 @@ iframe[title='Disqus']{
     margin-top: -5px;
     font-style: italic;
 }
+
+figure > img{
+    border: 5px solid #fff;
+    box-shadow: 0 0 5px #999;
+    display: block;
+    margin: auto;
+}
+
+figure > figcaption{
+    text-align: center;
+    font-style: italic;
+    font-size: 12px;
+    margin-top: 5px;
+}
